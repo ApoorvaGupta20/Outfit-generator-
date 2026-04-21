@@ -1,12 +1,3 @@
-# React + Vite
+This is a full-stack outfit generator web application developed using the MERN stack (MongoDB, Express.js, React, Node.js). The application allows users to input personal preferences through a form and manage their wardrobe items, which are stored in a MongoDB database.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Based on the stored data, the system dynamically generates outfit combinations, helping users make better styling decisions. The frontend is built using React and Tailwind CSS to ensure a responsive and user-friendly interface, while the backend handles data storage, retrieval, and logic implementation.
