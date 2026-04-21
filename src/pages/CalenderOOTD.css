@@ -1,0 +1,64 @@
+/* CalenderOOTD.css */
+
+.calendar-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.react-calendar {
+    border: none;
+    width: 100%;
+    background: transparent;
+    font-family: inherit;
+}
+
+.react-calendar__tile {
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.react-calendar__tile:hover {
+    background: #f0f0f0;
+}
+
+.react-calendar__tile--active {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.ootd-display {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #fafafa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.ootd-display img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.ootd-text {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+

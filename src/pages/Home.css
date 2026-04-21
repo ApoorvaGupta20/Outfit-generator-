@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+.home-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffe0ec, #f8f4f9);
+  font-family: 'Quicksand', sans-serif;
+  color: #333;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Brand name */
+.brand-name {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #d16b86;
+  margin-bottom: 0.5rem;
+  text-align: center; /* added */
+}
+
+/* Lead text */
+.lead {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 500px;
+  text-align: center; /* added */
+  margin-bottom: 2rem; /* added */
+}
+
+/* Buttons */
+.buttons {
+  display: flex; /* added */
+  gap: 1rem;     /* added */
+  justify-content: center; /* added */
+  flex-wrap: wrap; /* added */
+  margin-bottom: 3rem; /* added */
+}
+
+.buttons .btn {
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer; /* added */
+}
+
+.btn-main {
+  background: #d16b86;
+  color: white;
+  border: none;
+}
+
+.btn-main:hover {
+  background: #b75770;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #d16b86;
+  color: #d16b86;
+}
+
+.btn-outline:hover {
+  background: #d16b86;
+  color: #fff;
+}
+
+/* Hero image */
+.hero-img {
+  max-width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem; /* added */
+}
+
+/* Features section */
+.feature-card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 1rem;
+  width: 300px; /* added for consistency */
+  flex-shrink: 0; /* added for responsiveness */
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h5 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.feature-card p {
+  color: #666;
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+
+.btn-card {
+  background: #ffe0ec;
+  border: none;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.95rem;
+  color: #d16b86;
+  font-weight: 600;
+  transition: background 0.3s;
+  cursor: pointer; /* added */
+}
+
+.btn-card:hover {
+  background: #f8b7ca;
+  color: #fff;
+}
+
+/* Info text */
+.info-text {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 2rem;
+  color: #555;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  padding: 0 1rem; /* added for mobile spacing */
+}
+
+/* Responsive card grid (added section) */
+.feature-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
